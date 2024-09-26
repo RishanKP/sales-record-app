@@ -15,7 +15,8 @@
    go mod tidy
    go run main.go
 
-3. **API Documentation**
+## API DOCUMENTATION
+
 | Method | Endpoint          | Description                                                     |  
 |--------|-------------------|-----------------------------------------------------------------|
 | POST   | /refresh          | Initiates a background refresh of sales data from a CSV file.   | 
@@ -23,7 +24,7 @@
 | GET    | /revenue/product  | Retrieves total revenue by product for a specified date range.  | 
 | GET    | /revenue/category | Retrieves total revenue by category for a specified date range. | 
 
-4. **Sample Requests**
+## Sample Requests
     ```bash
     curl -X POST http://localhost:8080/refresh
 
