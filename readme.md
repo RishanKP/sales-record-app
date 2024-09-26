@@ -16,13 +16,12 @@
    go run main.go
 
 3. **API Documentation**
-| Method | Endpoint          | Description                                                     |   |   |   |   |   |   |   |
-|--------|-------------------|-----------------------------------------------------------------|---|---|---|---|---|---|---|
-| POST   | /refresh          | Initiates a background refresh of sales data from a CSV file.   |   |   |   |   |   |   |   |
-| GET    | /revenue          | Retrieves total revenue for a specified date range.             |   |   |   |   |   |   |   |
-| GET    | /revenue/product  | Retrieves total revenue by product for a specified date range.  |   |   |   |   |   |   |   |
-| GET    | /revenue/category | Retrieves total revenue by category for a specified date range. |   |   |   |   |   |   |   |
-|        |                   |                                                                 |   |   |   |   |   |   |   |
+| Method | Endpoint          | Description                                                     |  
+|--------|-------------------|-----------------------------------------------------------------|
+| POST   | /refresh          | Initiates a background refresh of sales data from a CSV file.   | 
+| GET    | /revenue          | Retrieves total revenue for a specified date range.             | 
+| GET    | /revenue/product  | Retrieves total revenue by product for a specified date range.  | 
+| GET    | /revenue/category | Retrieves total revenue by category for a specified date range. | 
 
 4. **Sample Requests**
     ```bash
